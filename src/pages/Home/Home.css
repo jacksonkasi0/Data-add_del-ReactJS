@@ -1,0 +1,49 @@
+.home {
+  padding-left: 13%;
+  margin-top: 13px;
+}
+
+.home h1 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.home__container {
+  margin-top: 10px;
+}
+
+.home__container label {
+  font-size: 18px;
+  color: rgb(0, 102, 255);
+  font-weight: 400;
+}
+.home__container input,
+textarea {
+  margin-bottom: 10px;
+  font-size: 14px;
+  padding: 10px 5px;
+  width: 90%;
+  max-width: 300px;
+  resize: none;
+  border: 2px solid gainsboro;
+  border-radius: 5px;
+}
+
+.home__container button{
+  padding: 15px;
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+  background: rgb(0, 102, 255);
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  transition: 10ms ease-in-out;
+  transition-duration: 0.4s;
+}
+
+.home__container button:hover{
+    background-color: transparent;
+    color:  rgb(0, 102, 255);
+
+}
